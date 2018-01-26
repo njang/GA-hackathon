@@ -30,3 +30,8 @@ She is looking for information on government institutions in Chicago, IL.
 She is considering to move back to her hometown, Chicago. Diversity in the workplace is important for her. She is looking for a way to view workplace diversity analytics for the government institutions in Chicago.   
 User Journey
 She goes to www.diversity.gov. She filters to see the analytics for Chicago, then filters the data for the Position “Project Manager”.
+
+## Wireframes
+[](public/images/wireframe_homepage.png)
+[](public/images/wireframe_citiResults.png)
+[](public/images/wireframe_citiResultsCompare.png)
