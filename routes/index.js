@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 /* GET results page rendenring. */
 router.get('/results', function(req, res, next) {
   // res.send('respond with a resource');
-  res.render('results', {city: 'Austin, TX'});
+  res.render('results', {city: 'Austin, TX', roles: req.query.roles});
 });
 
 module.exports = router;
