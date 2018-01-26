@@ -1,36 +1,87 @@
 <% include partials/header %>
 
-<div class="wrapper">
+	<header>
+		<div class='row'>
+			<div class='col col-2 px-3'>
+				<a href='/'>
+					<img src='images/diversityGov.png' alt='Diversity.gov logo' width=100px height=100px>
+				</a>
+			</div>
+			<div class='col col-2 offset-8'>
+				<form id='searchResult'>
+					<div>
+						<input type='text' class='btn search-main text-left fa' placeholder='&#xf002; search'>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
 
-        <nav id="sidebar">
-            <!-- Sidebar Header -->
-            <div class="sidebar-header">
-                <h3>Collapsible Sidebar</div>
-            </div>
-
-            <!-- Sidebar Links -->
-            <ul class="list-unstyled components">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><!-- Link with dropdown items -->
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
-                    </ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div id="content">
-            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-                <i class="glyphicon glyphicon-align-left"></i>
-                Toggle Sidebar
-            </button>
-        <div>
-
-</div>
+	<section class='row'>
+		<aside class='col col-2'>
+			<h3>Departments</h3>
+			<form>
+	    	<ul class='list-group list-group-flush'>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice1' name='department' value='animalServices'>
+  					<label for='deptChoice1'>Animal services</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice2' name='department' value='buildingServices'>
+  					<label for='deptChoice2'>Building services</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice3' name='department' value='cityClert'>
+  					<label for='deptChoice3'>City clerk</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice4' name='department' value='commTech'>
+  					<label for='deptChoice4'>Communication & Tech</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice5' name='department' value='convCenter'>
+  					<label for='deptChoice5'>Convention center</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice6' name='department' value='devServices'>
+  					<label for='deptChoice6'>Development services</label>
+	        </li>
+	        <li class='list-group-item'>
+            <input type='radio' id='deptChoice7' name='department' value='emergencyMed'>
+  					<label for='deptChoice7'>Emergency medical</label>
+	        </li>
+	    	</ul>
+			</form>
+			<h3>Roles</h3>
+			<form>
+				<ul class='list-group list-group-flush'>
+	        <li class='list-group-item'>
+	          <input type='radio' id='roleChoice1' name='roles' value='customerServie'>
+  					<label for='roleChoice1'>Customer service rep</label>
+	        </li>
+	        <li class='list-group-item'>
+	          <input type='radio' id='roleChoice2' name='roles' value='engineer'>
+  					<label for='roleChoice2'>Engineer</label>
+	        </li>
+	        <li class='list-group-item'>
+	          <input type='radio' id='roleChoice3' name='roles' value='projectManager'>
+  					<label for='roleChoice3'>Project manager</label>
+	        </li>
+	        <li class='list-group-item'>
+	          <input type='radio' id='roleChoice4' name='roles' value='humanResources'>
+  					<label for='roleChoice4'>Human resources</label>
+	        </li>
+	        <li class='list-group-item'>
+	          <input type='radio' id='roleChoice5' name='roles' value='trainer'>
+  					<label for='roleChoice5'>Trainer</label>
+	        </li>
+	    	</ul>
+			</form>
+		</aside>
+		<article class='col col-10' id='charts'>
+			<h1>Charts go here</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</section>
 
 <% include partials/footer %>
