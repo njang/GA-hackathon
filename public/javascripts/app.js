@@ -6,5 +6,5 @@ $(document).ready(function() {
 
 $('#searchMain').submit(function (event) {
 	event.preventDefault();
-	alert('Searching');
+	console.log('Searching');
 });
