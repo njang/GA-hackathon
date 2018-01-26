@@ -32,6 +32,11 @@ User Journey
 She goes to www.diversity.gov. She filters to see the analytics for Chicago, then filters the data for the Position “Project Manager”.
 
 ## Wireframes
-[](public/images/wireframe_homepage.png)
-[](public/images/wireframe_citiResults.png)
-[](public/images/wireframe_citiResultsCompare.png)
+Homepage
+![](public/images/wireframe_homepage.png)
+
+City results
+![](public/images/wireframe_cityResults.png)
+
+City results - compare
+![](public/images/wireframe_cityResultsCompare.png)
