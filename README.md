@@ -1,4 +1,5 @@
-![](public/images/diversityGov.png)
+
+<img src="public/images/diversityGov.png" width="200">
 
 # General Assembly's WDI+ & UXDI Hackathon
 
