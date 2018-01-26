@@ -7,12 +7,12 @@ body {
 
 input[type=text] {
     width: 60px;
+    height: 60px;
     box-sizing: border-box;
+    font-size: 18px;
     border: 2px solid #ccc;
     border-radius: 30px;
     background-color: white;
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
     padding: 12px 20px;
     -webkit-transition: width 0.3s ease-in-out;
     -moz-transition: width 0.3s ease-in-out;
