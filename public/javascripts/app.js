@@ -4,7 +4,7 @@ $(document).ready(function() {
 	console.log('app is loaded');
 });
 
-$('#searchMain').submit(function (event) {
+$('#searchMain').submit((event) => {
 	event.preventDefault();
 	console.log('Searching');
 });
