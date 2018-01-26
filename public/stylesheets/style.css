@@ -1,8 +1,8 @@
 body {
-	font-family: 'Merriweather', serif;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	position: absolute;
-	top: 3em;
+    position: absolute;
+    top: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
 }
 
 input[type=text] {
@@ -21,4 +21,10 @@ input[type=text] {
 
 input[type=text]:focus {
     width: 100%;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 52px;
 }
