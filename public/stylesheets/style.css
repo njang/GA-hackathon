@@ -1,6 +1,6 @@
 body {
     position: absolute;
-    top: 3em;
+    top: 2em;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
 }
@@ -35,12 +35,15 @@ h1 {
     border-color: black;
 }
 
-.wrapper {
-        display: flex;
+aside {
+    position: absolute;
+    /*left: 0;*/
+    /*height: 500px;*/
+    /*width: 360px;*/
 }
 
-#sidebar {
-        min-width: 250px;
-        max-width: 250px;
-        height: 100vh;
+article {
+    position: absolute;
+    /*right: 0;*/
+    /*bottom: 0;*/
 }

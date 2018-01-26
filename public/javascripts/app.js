@@ -8,3 +8,5 @@ $('#searchMain').submit((event) => {
 	event.preventDefault();
 	console.log('Searching');
 });
+
+    
