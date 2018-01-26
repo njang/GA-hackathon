@@ -1,3 +1,4 @@
+![](public/images/diversityGov.png)
 
 # General Assembly's WDI+ & UXDI Hackathon
 
