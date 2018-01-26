@@ -1,8 +1,24 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-family: 'Merriweather', serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	position: absolute;
+	top: 3em;
 }
 
-a {
-  color: #00B7FF;
+input[type=text] {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    background-color: white;
+    padding: 12px 20px;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
 }
