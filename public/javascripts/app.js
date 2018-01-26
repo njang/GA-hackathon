@@ -2,12 +2,11 @@
 $(document).ready(function() {
   // Initial render of clients
 	console.log('app is loaded');
+	renderCharts();
+});
 
+const renderCharts = () => {
 
-// $('#searchMain').submit((event) => {
-// 	event.preventDefault();
-// 	console.log('Searching');
-// });
 
     
 
@@ -226,4 +225,6 @@ let salWoBarChart = new Chart (salWomenBar, {
 
 });
 
-});
+}
+
+
