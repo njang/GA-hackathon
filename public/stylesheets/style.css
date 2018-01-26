@@ -5,7 +5,9 @@ body {
     font-size: 17px;
 }
 
-input[type=text] {
+
+/*Disabled click-to-expand search box animation*/
+/*input[type=text] {
     width: 60px;
     height: 60px;
     box-sizing: border-box;
@@ -18,13 +20,17 @@ input[type=text] {
     -moz-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
 }
-
 input[type=text]:focus {
     width: 80%;
-}
+}*/
 
 h1 {
 	font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 52px;
+}
+
+.search-main {
+    border: solid 1px;
+    border-color: black;
 }
